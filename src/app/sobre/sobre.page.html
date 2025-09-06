@@ -1,0 +1,32 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Sobre</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Sobre</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-accordion-group>
+  <ion-accordion value="first">
+    <ion-item slot="header" color="light">
+      <ion-label>Apresentação pessoal</ion-label>
+    </ion-item>
+    <div class="ion-padding" slot="content">Meu nome é Sara, tenho 21 anos, sou estudante de Análise e Desenvolvimento de Sistemas e tenho interesse em aprender cada vez mais sobre tecnologia e inovação. Busco constantemente desenvolver minhas habilidades, tanto técnicas quanto pessoais. 
+   Além disso, tenho interesse por design e sei trabalhar com Figma, o que me permite criar interfaces e protótipos funcionais e visualmente atrativos.</div>
+  </ion-accordion>
+  <ion-accordion value="second">
+    <ion-item slot="header" color="light">
+      <ion-label>Apresentação sobre a disciplina</ion-label>
+    </ion-item>
+    <div class="ion-padding" slot="content">  A disciplina de Análise e Desenvolvimento de Sistemas proporciona uma visão ampla sobre o papel da Tecnologia da Informação no mundo atual. Ao longo do curso, aprendemos desde fundamentos de programação e banco de dados até metodologias ágeis 
+       e boas práticas de desenvolvimento, sempre com foco em preparar o aluno para os desafios do mercado de trabalho</div>
+  </ion-accordion>
+ 
+</ion-accordion-group>
+
+<ion-button expand="block" color="tertiary" [routerLink]="['/home']">VOLTAR</ion-button>
+</ion-content>

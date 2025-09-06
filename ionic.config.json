@@ -1,0 +1,7 @@
+{
+  "name": "AvFormadora",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
