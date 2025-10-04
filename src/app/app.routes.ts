@@ -10,10 +10,8 @@ export const routes: Routes = [
     redirectTo: 'Inicio',
     pathMatch: 'full',
   },
-  {
-    path: 'sobre',
-    loadComponent: () => import('./sobre/sobre.page').then( m => m.SobrePage)
-  },
+  
+
   {
     path: 'inicio',
     loadComponent: () => import('./inicio/inicio.page').then( m => m.InicioPage)
