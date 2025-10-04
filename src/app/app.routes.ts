@@ -7,7 +7,7 @@ export const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'Inicio',
+    redirectTo: 'inicio',
     pathMatch: 'full',
   },
   
