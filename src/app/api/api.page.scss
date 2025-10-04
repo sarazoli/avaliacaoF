@@ -1,0 +1,10 @@
+
+
+.centralizar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* centraliza verticalmente */
+     /* centraliza horizontalmente */
+  height: 100%;            /* ocupa toda a altura da tela */
+  text-align: center;
+}

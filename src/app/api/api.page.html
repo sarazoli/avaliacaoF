@@ -1,0 +1,21 @@
+<ion-header>
+
+</ion-header>
+
+<ion-content class="fundo">
+  <div class="centralizar">
+  <ion-card>
+    <ion-card-content>
+      <p *ngIf="carregando">Carregando frase...</p>
+      <p *ngIf="!carregando">{{ frase }}</p>
+      <footer *ngIf="!carregando && autor">
+        <p><strong>- {{ autor }}</strong></p>
+      </footer>
+    </ion-card-content>
+  </ion-card>
+ 
+
+ <ion-button expand="block" color="dark"(click)="novaFrase()">Nova frase</ion-button>
+ <ion-button expand="block" color="tertiary" [routerLink]="['/inicio']">Voltar</ion-button>
+   </div>
+</ion-content>
